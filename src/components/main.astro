@@ -1,0 +1,66 @@
+<div class="main">
+    <div class="main_boxDescription">
+        <h1 class="main_h1">Reparación Profesional de Equipos Informáticos</h1>
+        <p class="main_description">
+            En CompuEliseo, nos dedicamos a ofrecer soluciones completas para la reparación y el mantenimiento de tu computadora. Confía en nosotros para optimizar el rendimiento de tu tecnología y garantizar un funcionamiento sin problemas.
+        </p>
+        <button class="main_btn">
+            <img src="./phone.svg" alt=""> <span>Contactame</span>
+        </button>
+        <div></div>
+    </div>
+    <div class="main-boxImage">
+        <img class="main_image" src="./computer.png" alt="">
+    </div>
+</div>
+
+
+<style>
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2,50%);
+        height: calc(100vh - 70px);
+        
+    }
+    .main_h1{
+        text-align: center;
+        font-size:3.5rem;
+        margin: 0px auto;
+    }
+    .main_boxDescription{
+        /* background-color: green; */
+        align-self: center;
+        justify-self: end;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    }
+    .main_description{
+        max-width: 500px;
+       font-size: 1.2rem;
+    
+
+    }
+    .main-boxImage{
+        align-self: center;
+        justify-self: center;
+    }
+    .main_image{
+        filter: drop-shadow(5px 5px 10px rgba(8, 182, 194, 0.5));
+        width: 400px;
+    }
+    .main_btn{
+        padding: 15px 40px;
+        border-radius: 8    px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: inherit;
+        border: none;
+        cursor: pointer;
+        background-color: #bbe2ff;
+        display: flex;
+        justify-items: center;
+        gap: 10px;
+    }
+</style>
